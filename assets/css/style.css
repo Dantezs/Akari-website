@@ -7,7 +7,7 @@
     --color-back: #cccccc;
     --color-hover-text: rgb(128, 128, 128);
     --color-hover-button: rgb(201, 201, 201);
-    --color-navbar: #305CA7;
+    --color-navbar: #00000025;
 
 }
 
@@ -43,12 +43,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: var(--color-navbar); */
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    margin: 20px;
-    padding: 15px;
-    border-radius: 100px;
+    background-color: var(--color-navbar);
 }
 
 .navbar .bowser {
@@ -92,13 +87,10 @@ nav {
 
 .navbar li  ul{
     position:absolute;
-    top: 62px;
-    right: 135px;
+    top: 45px;
+    right: 120px;
     border-radius: 0 0 10px 10px;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
     display:none;
-    border: 1px solid gray;
     border-top: transparent;
     }
 
@@ -118,10 +110,7 @@ nav {
             top: 75px;
             right: 135px;
             border-radius: 20px 0px 20px 20px;
-            background-color: transparent;
-            backdrop-filter: blur(20px);
             display:none;
-            border: 1px solid gray;
             }
         
             .navbar li  ul .sub-dropdown li:hover ul, .sub-dropdown li.over ul{
@@ -169,7 +158,8 @@ informacoes do criador do website
 }
 
 .container-convite .convite .btn-add button {
-    background-color: #305CA7;
+    background: rgb(0,29,80);
+    background: linear-gradient(0deg, rgba(0,29,80,1) 1%, rgba(12,73,179,1) 58%, rgba(0,153,255,1) 100%);
     border: none;
     padding: 10px;
     margin-top: 23px;
